@@ -1,0 +1,10 @@
+Algorithm Used:
+
+MLPRegressor as below:
+
+
+from sklearn.neural_network import MLPRegressor
+neural_net = MLPRegressor(activation='logistic', max_iter=500)
+# Train Model
+neural_net.fit(train_features, train_labels)
+
