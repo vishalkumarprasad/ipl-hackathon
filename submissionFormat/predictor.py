@@ -20,7 +20,8 @@ def predictRuns(testInput):
         'MA Chidambaram Stadium': 'Chennai',
         'Arun Jaitley Stadium': 'Delhi',
         'MA Chidambaram Stadium, Chepauk, Chennai': 'Chennai',
-        'Wankhede Stadium, Mumbai': 'Mumbai'}
+        'Wankhede Stadium, Mumbai': 'Mumbai',
+        'Narendra Modi Stadium': 'Ahmedabad'}
     df_input["venue"].replace(dict_stadium, inplace=True)
 
     df_input.reset_index(inplace=True, drop=True)
